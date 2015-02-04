@@ -7,3 +7,6 @@ watch:
 
 slides:
 	ipython nbconvert --to slides ${source_filename}
+
+serve:
+	python -m SimpleHTTPServer
