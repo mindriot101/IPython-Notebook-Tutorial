@@ -11,5 +11,9 @@ watch:
 slides:
 	ipython nbconvert --to slides ${source_filename}
 
+ipython:
+	ipython notebook --port 8889
+
 serve:
 	python -m SimpleHTTPServer
+
