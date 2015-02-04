@@ -4,7 +4,7 @@ Some advanced uses if IPython Notebook
 
 ## Development
 
-* Clone the repository: `git clone --recursive https://github.com/mindriot101/IPython-Notebook-Tutorial' 
+* Clone the repository: `git clone --recursive https://github.com/mindriot101/IPython-Notebook-Tutorial`
 * Get the gems: `bundle`
 * Run the file watcher and web server: `make`
 * Edit the presentation: `open localhost:8889/notebooks/IPythonNotebookTutorial.ipynb`
