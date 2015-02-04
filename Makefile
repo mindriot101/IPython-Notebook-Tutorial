@@ -1,7 +1,9 @@
 source_filename = IPythonNotebookTutorial.ipynb
 
-all:
-	bundle exec foreman start
+all: help
+
+help:
+	@echo "Commands: ipython|watch|slides|serve"
 
 watch:
 	fswatch ${source_filename} | while read fname; do make slides; done
