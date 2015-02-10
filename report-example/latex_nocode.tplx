@@ -1,0 +1,9 @@
+((*-extends 'article.tplx' -*))
+
+((* block docclass *))
+\documentclass[a4paper]{article}
+((* endblock docclass *))
+
+((= Disable input cells =))
+((* block input_group *))
+((* endblock input_group *))
