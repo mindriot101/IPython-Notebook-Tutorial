@@ -3,3 +3,4 @@ IPythonNotebookTutorial.slides.html
 .bundle
 *.swp
 profiling/profile.stats
+*.pyc
