@@ -5,3 +5,6 @@ IPythonNotebookTutorial.slides.html
 profiling/profile.stats
 *.pyc
 venv
+running-a-notebook/*
+!running-a-notebook/.gitkeep
+
