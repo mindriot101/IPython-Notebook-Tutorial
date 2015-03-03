@@ -4,3 +4,4 @@ IPythonNotebookTutorial.slides.html
 *.swp
 profiling/profile.stats
 *.pyc
+venv
