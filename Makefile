@@ -3,7 +3,7 @@ source_filename = IPythonNotebookTutorial.ipynb
 all: help
 
 help:
-	@echo "Commands: ipython|ipython-home|watch|serve"
+	@echo "Commands: ipython|ipython-home|slides|serve"
 
 slides:
 	ipython nbconvert --to slides ${source_filename}
